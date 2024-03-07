@@ -10,6 +10,6 @@ services:
     image: ankane/pghero
     container_name: pghero
     ports:
-      - "8080:8080"
+      - "8888:8888"
     environment:
       DATABASE_URL: postgres://postgres:password@db:5432
